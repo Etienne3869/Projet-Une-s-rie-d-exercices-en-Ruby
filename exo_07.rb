@@ -1,4 +1,8 @@
-puts "Choisisez un nombre"
-user_number = gets.to_i
+puts "Choisissez un nombre"
+puts ">"
+user_number = gets.chomp.to_i
 
-while user_number < 
+
+user_number.times do |i|
+  puts "> #{i + 1}"
+end
